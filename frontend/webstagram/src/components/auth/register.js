@@ -13,12 +13,16 @@ class Register extends React.Component {
 
     render(){
         return (
-        <div class="container">
-            <div class="signup-box">
+        <div>
+            <div className="signup-box">
                 <h2>Webstagram</h2>
                 <h4>Sign up to see photos and videos from your friends.</h4>
                 <button>Log in with Facebook</button>
-                <h4>OR</h4>
+                <div className="or-bar">
+                    <p>----------</p>
+                    <h4>OR</h4>
+                    <p>----------</p>
+                </div>
                 <form>
                     <input></input>
                     <input></input>

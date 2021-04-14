@@ -53,10 +53,27 @@ table {
 
 .container {
   width: auto;
-  height: 2000px;
+  min-height: 2000px;
   text-align: center;
+  margin: 0 auto;
   background-color: #ffffe6;
 }
 
 /* Register Styles */
 
+.signup-box {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  width: 350px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.or-bar {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+}
