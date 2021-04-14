@@ -3,7 +3,7 @@ import Register from './components/auth/register';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Register />
     </div>
   );

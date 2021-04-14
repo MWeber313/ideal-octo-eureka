@@ -12,6 +12,7 @@ class Register extends React.Component {
     }
 
     render(){
+        return (
         <div class="container">
             <div class="signup-box">
                 <h2>Webstagram</h2>
@@ -37,7 +38,7 @@ class Register extends React.Component {
             </div>
             <div><p>*This app is not endorsed, affiliated, or otherwise associated with Instagram*</p></div>
         </div>
-    }
+        )}
 }
 
 export default Register
