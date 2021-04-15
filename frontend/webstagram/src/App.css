@@ -69,6 +69,9 @@ table {
   height: 360px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid lightgrey;
+  padding: 10px;
 }
 
 .or-bar {
@@ -76,4 +79,11 @@ table {
   margin: 0 auto;
   flex-direction: row;
   align-items: center;
+}
+
+/* This will also be used for Login */
+
+.logo-header {
+  width: 51px;
+  height: 175px;
 }

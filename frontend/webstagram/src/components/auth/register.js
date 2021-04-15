@@ -15,7 +15,7 @@ class Register extends React.Component {
         return (
         <div>
             <div className="signup-box">
-                <h2>Webstagram</h2>
+                <h2 className="logo-header">Webstagram</h2>
                 <h4>Sign up to see photos and videos from your friends.</h4>
                 <button>Log in with Facebook</button>
                 <div className="or-bar">
