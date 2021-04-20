@@ -12,12 +12,22 @@ class Register extends React.Component {
     }
 
     render(){
-        <div class="container">
-            <div class="signup-box">
-                <h2>Webstagram</h2>
-                <h4>Sign up to see photos and videos from your friends.</h4>
-                <button>Log in with Facebook</button>
-                <h4>OR</h4>
+        return (
+        <div>
+            <div className="signup-box">
+                <h2 className="logo-header">Webstagram</h2>
+                <h4 id="hook-text">Sign up to see photos and videos from your friends.</h4>
+                <button id="facebook-button">
+                    <p id="facebook-button-text">
+                    Log in with Facebook
+                    </p>
+                </button>
+                <div className="or-bar">
+                    <p className="or-bar-line">______________</p>
+                    <p>OR</p>
+                    <p className="or-bar-line">______________</p>
+
+                </div>
                 <form>
                     <input></input>
                     <input></input>
@@ -25,8 +35,7 @@ class Register extends React.Component {
                     <input></input>
                     <button>Sign up</button>
                 </form>
-                <p>By signing up, you agree to our <b>Terms</b>, <b>Data Policy</b> and <b>Cookies Policy</b>.</p>
-            </div>
+                <p>*This app is not endorsed, affiliated, or otherwise associated with Instagram*</p></div>
             <div class="redirect">
                 <p>Have an account? <a href="#">Log in</a>.</p>
             </div>
@@ -37,7 +46,7 @@ class Register extends React.Component {
             </div>
             <div><p>*This app is not endorsed, affiliated, or otherwise associated with Instagram*</p></div>
         </div>
-    }
+        )}
 }
 
 export default Register

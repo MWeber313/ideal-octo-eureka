@@ -1,38 +1,125 @@
-.App {
+/* CSS Reset by meyerweb (attribution to follow */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* === Main Styles === */
+
+.container {
+  width: auto;
+  min-height: 2000px;
   text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffe6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#facebook-button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 250px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#facebook-button-text {
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* === Register Styles === */
+
+.signup-box {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  width: 350px;
+  height: 360px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid lightgrey;
+  padding: 15px;
+}
+
+.or-bar {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: grey;
 }
 
-.App-link {
-  color: #61dafb;
+.or-bar-line {
+  padding-bottom: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#hook-text {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.25rem;
+  color: gray;
+  font-weight: 500;
+}
+
+/* This will also be used for Login */
+
+.logo-header {
+  font-size: 3rem;
+  display: flex;
+  align-self: center;
+  align-items: center;
 }
