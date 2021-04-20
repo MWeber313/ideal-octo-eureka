@@ -81,6 +81,16 @@ table {
   align-items: center;
 }
 
+#hook-text {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.25rem;
+  color: gray;
+  font-weight: 500;
+}
+
 /* This will also be used for Login */
 
 .logo-header {
