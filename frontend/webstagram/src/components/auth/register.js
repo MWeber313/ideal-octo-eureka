@@ -19,9 +19,12 @@ class Register extends React.Component {
                 <h4 id="hook-text">Sign up to see photos and videos from your friends.</h4>
                 <button>Log in with Facebook</button>
                 <div className="or-bar">
-                    <p>----------</p>
+                    <p className="or-bar-line">______________</p>
+                    <p>OR</p>
+                    <p className="or-bar-line">______________</p>
+                    {/* <hr className="or-bar-line"/>
                     <h4>OR</h4>
-                    <p>----------</p>
+                    <hr size="9" width="50%" color="grey"/> */}
                 </div>
                 <form>
                     <input></input>
@@ -30,8 +33,7 @@ class Register extends React.Component {
                     <input></input>
                     <button>Sign up</button>
                 </form>
-                <p>By signing up, you agree to our <b>Terms</b>, <b>Data Policy</b> and <b>Cookies Policy</b>.</p>
-            </div>
+                <p>*This app is not endorsed, affiliated, or otherwise associated with Instagram*</p></div>
             <div class="redirect">
                 <p>Have an account? <a href="#">Log in</a>.</p>
             </div>

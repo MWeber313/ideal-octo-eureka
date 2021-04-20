@@ -79,7 +79,21 @@ table {
   margin: 0 auto;
   flex-direction: row;
   align-items: center;
+  color: grey;
 }
+
+.or-bar-line {
+  padding-bottom: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* .or-bar-line {
+  width: 100px;
+  background-color: grey;
+  color: grey;
+  height: 10px;
+} */
 
 #hook-text {
   margin-top: 20px;
