@@ -17,7 +17,7 @@ class Register extends React.Component {
             <div className="signup-box">
                 <h2 className="logo-header">Webstagram</h2>
                 <h4 id="hook-text">Sign up to see photos and videos from your friends.</h4>
-                <button>Log in with Facebook</button>
+                <button id="facebook-button">Log in with Facebook</button>
                 <div className="or-bar">
                     <p className="or-bar-line">______________</p>
                     <p>OR</p>

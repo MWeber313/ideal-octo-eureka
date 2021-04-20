@@ -56,7 +56,17 @@ table {
   min-height: 2000px;
   text-align: center;
   margin: 0 auto;
+  padding: 50px;
   background-color: #ffffe6;
+}
+
+#facebook-button {
+  background-color: dodgerblue;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  align-items: center;
 }
 
 /* === Register Styles === */
@@ -71,7 +81,7 @@ table {
   flex-direction: column;
   box-sizing: border-box;
   border: 1px solid lightgrey;
-  padding: 10px;
+  padding: 15px;
 }
 
 .or-bar {
