@@ -56,17 +56,24 @@ table {
   min-height: 2000px;
   text-align: center;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
   background-color: #ffffe6;
 }
 
 #facebook-button {
   background-color: dodgerblue;
   color: white;
+  border: none;
   padding-left: 25px;
   padding-right: 25px;
-  width: 100%;
-  align-items: center;
+  width: 250px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+#facebook-button-text {
+  font-weight: 600;
 }
 
 /* === Register Styles === */
@@ -97,13 +104,6 @@ table {
   padding-right: 5px;
   padding-left: 5px;
 }
-
-/* .or-bar-line {
-  width: 100px;
-  background-color: grey;
-  color: grey;
-  height: 10px;
-} */
 
 #hook-text {
   margin-top: 20px;
