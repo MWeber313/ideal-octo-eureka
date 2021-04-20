@@ -49,7 +49,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Main Styles */
+/* === Main Styles === */
 
 .container {
   width: auto;
@@ -59,7 +59,7 @@ table {
   background-color: #ffffe6;
 }
 
-/* Register Styles */
+/* === Register Styles === */
 
 .signup-box {
   background-color: white;
@@ -84,6 +84,8 @@ table {
 /* This will also be used for Login */
 
 .logo-header {
-  width: 51px;
-  height: 175px;
+  font-size: 3rem;
+  display: flex;
+  align-self: center;
+  align-items: center;
 }
