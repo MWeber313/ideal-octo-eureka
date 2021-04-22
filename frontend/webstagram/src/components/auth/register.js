@@ -28,12 +28,12 @@ class Register extends React.Component {
                     <p className="or-bar-line">______________</p>
 
                 </div>
-                <form>
-                    <input></input>
-                    <input></input>
-                    <input></input>
-                    <input></input>
-                    <button>Sign up</button>
+                <form className="auth-form">
+                    <input className="auth-input" placeholder="Email"></input>
+                    <input className="auth-input" placeholder="Username"></input>
+                    <input className="auth-input" placeholder="Password"></input>
+                    <input className="auth-input" placeholder="Confirm Password"></input>
+                    <button id="facebook-button"><p id="facebook-button-text">Sign up</p></button>
                 </form>
                 <p>*This app is not endorsed, affiliated, or otherwise associated with Instagram*</p></div>
             <div class="redirect">
